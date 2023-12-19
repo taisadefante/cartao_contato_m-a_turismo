@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartao M&A TURISMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/Captura de tela 2023-12-19 125051.png" alt="Minha Imagem">
+            <p>Maria Augusta</p><br>
+          
+        </header>
+
+        <main class="links-container">
+            <div class="links">
+                <a href="https://www.instagram.com/m.augustatur/" target="_blank">Instagran</a>
+                <a href="" target="_blank">Site</a>
+                <a href="https://www.facebook.com/augusta.azevedo.927" target="_blank">Facebook</a>
+                <a href="https://wa.me/5521991819294" target="_blank">Whatsapp</a>
+                <button class="modal-active">Cadastro</button>
+            </div>
+                        
+        </main>
+       
+        <!--footer-->
+        <footer>
+            <span>Copyright © 2023 Tais Defante . Todos os direitos reservados.</span>
+            <br/>
+            <span>Contato: taisadefante@hotmail.com</span>
+        </footer>
+    
+
+        <!--Container Contato-->
+    <div id="modal-contact" class="modal-container">
+        <div class="modal">
+            <button class="close-button">X</button>
+            <h2 class="subtitle">Cadastro</h2>
+            <form action="https://formsubmit.co/mariadefante@gmail.com" method="POST">
+                <fieldset>
+                    <legend>Cadastro</legend>
+                   
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required placeholder="Digite seu nome" autocomplete="off">
+                    <br>
+                    <label for="email">Email</label> 
+                    <input type="email" name="email" id="email" required placeholder="Digite seu email">
+                    <br>
+                    <label for="number">Telefone</label> 
+                    <input type="telephone" name="email" id="email" required placeholder="Digite seu Telefone">
+                    <br>
+                    
+                    <label for="email">CPF</label> 
+                    <input type="number" name="email" id="email" required placeholder="Digite seu email">
+                    <br>
+                    <label for="email">IDT</label> 
+                    <input type="number" name="email" id="email" required placeholder="Digite seu email">
+                    <br>
+                    <label for="email">Data Nascimento</label> 
+                    <input type="email" name="email" id="email" required placeholder="Digite sua data nascimento">
+                    <br>
+                    <label for="email">Endereço: Rua / Numero / Bairro / Cidade / Cep:</label> 
+                    <input type="text" name="email" id="email" required placeholder="Digite seu endereço">
+                    <br>
+                    <label for="msg">Mensagem</label><br>
+                    <textarea name="msg" id="msg" cols="30" rows="5" required placeholder="Me mande uma mensagem"></textarea><br><br>
+                   
+                    <input type="hidden" name="_captcha" value="false"/>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html"/>
+
+                    <button></button><input type="submit" value="Enviar" class="button"></button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
